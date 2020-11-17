@@ -8,4 +8,4 @@ outputs:
 
 runs:
   using: "docker"
-  image: "dockerfile"
+  image: "Dockerfile"
