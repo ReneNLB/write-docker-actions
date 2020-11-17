@@ -2,8 +2,7 @@ FROM node:slim
 
 COPY package*.json ./
 
-RUN npm cache clean --force
-RUN npm install
+RUN npm install -g npm@7.0.11
 
 COPY . .
 
