@@ -10,6 +10,13 @@
       </inspection_tool>
     </profile>
   </component>
+  <component name="GithubSharedProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="security_" />
+      </list>
+    </option>
+  </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
